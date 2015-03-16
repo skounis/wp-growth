@@ -32,7 +32,7 @@ get_header(); ?>
          $services_posts->the_post();
 ?>
 
-<div class="services-block">
+<div class="services-block2">
          
 	 <!--<h2 class=services-author>Posted by <?php //the_author(); ?> | Posted: <?php //the_time('F j, Y'); ?> at <?php //the_time('g:i a'); ?> </h2>
          <div class='services-content'><?php //the_content(); ?></div>-->

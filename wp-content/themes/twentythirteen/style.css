@@ -3247,15 +3247,26 @@ h1, h2, h3 {
     width: 100%;
     margin: -5px;
     padding-left: 2.2%;
-    border: 1px dashed;
+    /*border: 1px dashed;*/
 
 }
-.services-block {
+.services-block2 {
     max-width: 45.80%; /* 2-column */
-    /*max-width: 29.15%;*/ /* 3-column */
     margin: 15px;
     float: left;
-    border: 1px dotted;
+    /*border: 1px dotted;*/
+}
+.services-block3 {
+    max-width: 29.15%; /* 3-column */
+    margin: 15px;
+    float: left;
+    /*border: 1px dotted;*/
+}
+.services-block4 {
+    max-width: 20.80%; /* 4-column */
+    margin: 15px;
+    float: left;
+    /*border: 1px dotted;*/
 }
 #services-image {
 	border: 1px solid #E6E6FA;
