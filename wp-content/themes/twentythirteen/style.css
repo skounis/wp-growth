@@ -3222,3 +3222,50 @@ footer.entry-meta {
 		color: #333;
 	}
 }
+
+
+/* testing */
+h1, h2, h3 {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: green;
+}
+
+/* Service's 2 Column Layout */
+#services-page-title {
+	font-family: 'Lato',Helvetica Neue,Arial,Sans-serif;
+	font-size: 35px;
+	line-height: 1.20;
+	padding: 0;
+	padding-left: 4.8%;
+	margin: 20px 0 30px 0;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.services-container {
+    overflow: hidden;
+    width: 100%;
+    margin: -5px;
+    padding-left: 2.2%;
+    border: 1px dashed;
+
+}
+.services-block {
+    max-width: 45.80%; /* 2-column */
+    /*max-width: 29.15%;*/ /* 3-column */
+    margin: 15px;
+    float: left;
+    border: 1px dotted;
+}
+#services-image {
+	border: 1px solid #E6E6FA;
+}
+#services-title {
+	font-size: 36px;
+	color: #4169E1;
+	padding: 0;
+	margin: 0;
+}
+#services-excerpt {
+	
+}

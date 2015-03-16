@@ -550,3 +550,23 @@ function twentythirteen_customize_preview_js() {
 	wp_enqueue_script( 'twentythirteen-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20141120', true );
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
+
+/**
+ * Disable the comment form from Carousel View.
+ */
+function tweakjp_rm_comments_att( $open, $post_id ) {
+    $post = get_post( $post_id );
+    if( $post->post_type == 'attachment' ) {
+        return false;
+    }
+    return $open;
+}
+add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
+
+/**
+ * Adjust excerpt_length making excerpt showing 10 words.
+ */
+function custom_excerpt_length( $length ) {
+	return 10;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
